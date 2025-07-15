@@ -1,4 +1,77 @@
-h1 {
+/* h1 { 
     color: blue;
     font-size: 36px;
+}*/
+:root {
+    --text-color: rgb(57, 216, 147);
 }
+h1 {
+    color: var(--text-color);
+}
+table {
+    color: var(--text-color)
+}
+ul {
+    color: var(--text-color)
+}
+.box {
+    width: 200px;
+    height: 200px;
+    color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    box-sizing: border-box;
+    
+}
+ .box1{
+
+    background-color: brown;
+    border:10px solid black ;
+    margin-top:5px;
+ }
+ .box2 {
+    background-color: rgb(48, 34, 97);
+    margin-top: 5px;
+    margin-left: 5px;
+    border:10px solid black ;
+ }
+ .box3 {
+    background-color: rgb(110, 5, 5);
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border:black ;
+    border-width: 10px;
+    border-style: dashed;
+    margin-top: 5px;
+ }
+ .header {
+    width: 100%;
+    height: 400px;
+    background-color: #99179b;
+    padding: 20px;
+    margin: 10px pink;
+    box-sizing: border-box;
+    border: 10px dashed black;
+    background-clip: border-box;
+    background-image: url(https://scontent.fhan5-5.fna.fbcdn.net/v/t39.30808-1/515438701_1352630106463071_2521439272396405427_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=_UKERaf5pi0Q7kNvwHsHJGr&_nc_oc=AdmkFQ06FOZ5iz5glYhdFsc96zhV70672YviRpAKtWvj-SgBXcJIXEv48XI3lBldfLmI3IirlivrS8THCct-hKVK&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent.fhan5-5.fna&_nc_gid=eVITRdNL-Gu2OsI4eQKo6w&oh=00_AfQPYMsJt8tFgpSUpNqYvgty6NzFqiuRN4gIlbCNZQYW5g&oe=687C4202);
+    background-size: 10%;
+    background-repeat: repeat-x;
+    
+ }
+ .bodyer{
+    width: 100%;
+    height: 400px;
+    background-color: #99179b;
+    padding: 20px;
+    margin: 10px pink;
+    box-sizing: border-box;
+    border: 10px dashed black;
+    background-clip: border-box;
+    background-image: url(https://scontent.fhan5-5.fna.fbcdn.net/v/t39.30808-1/515438701_1352630106463071_2521439272396405427_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=_UKERaf5pi0Q7kNvwHsHJGr&_nc_oc=AdmkFQ06FOZ5iz5glYhdFsc96zhV70672YviRpAKtWvj-SgBXcJIXEv48XI3lBldfLmI3IirlivrS8THCct-hKVK&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent.fhan5-5.fna&_nc_gid=eVITRdNL-Gu2OsI4eQKo6w&oh=00_AfQPYMsJt8tFgpSUpNqYvgty6NzFqiuRN4gIlbCNZQYW5g&oe=687C4202);
+    background-size: 10%;
+    background-repeat: repeat-y;
+ }
